@@ -1,0 +1,44 @@
+* {
+    background-color: aqua;
+}
+
+.title {
+    color: chocolate;
+    height: 100px;
+    width: auto;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.image-container {
+    width: auto;
+    height: 500px;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ordered-list {
+    color: brown;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+.list {
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+img {
+    height: 100%;
+    object-fit: contain;
+}
