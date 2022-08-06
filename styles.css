@@ -1,5 +1,17 @@
-* {
+.body {
     background-color: rgb(0, 255, 242);
+}
+
+.body2{
+    background-color: blueviolet;
+}
+
+.body3 {
+    background-color: chartreuse;
+}
+
+.body4 {
+    background-color: darkcyan;
 }
 
 .title {
@@ -29,29 +41,24 @@
     display: grid;
     justify-content: center;
 }
-.list {
-    color: rgb(42, 165, 42);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: left;
-    
-    
-}
 
-img {
+
+ img {
     height: 100%;
     object-fit: contain;
 }
 
 button {
     color: black;
+    background-color: rgb(255, 0, 157);
     font-size: 18px;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
     display: grid;
     justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    
     
     
 }
@@ -65,9 +72,6 @@ button {
     
 }
 
-button {
-    font-size: 14px;
-}
 
 .unordered-list {
     color: black;
