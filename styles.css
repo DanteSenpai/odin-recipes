@@ -35,7 +35,8 @@
     font-weight: 600;
     font-size: 20px;
     text-align: left;
-
+    
+    
 }
 
 img {
@@ -43,14 +44,16 @@ img {
     object-fit: contain;
 }
 
-.unordered-list {
+button {
     color: black;
     font-size: 18px;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
+    margin: auto;
     display: grid;
-    justify-content: center
+    justify-content: center;
+    
+    
 }
 
 .paragraph {
@@ -59,5 +62,20 @@ img {
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
+    
+}
+
+button {
+    font-size: 14px;
+}
+
+.unordered-list {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    display: grid;
+    justify-content: center;
     
 }
