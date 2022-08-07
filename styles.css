@@ -22,7 +22,7 @@
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    margin: px;
+    margin: 10px;
 
 }
 
@@ -33,7 +33,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 5%;
+    margin: 10px;
 }
 
 .ordered-list {
@@ -126,6 +126,27 @@
     margin: auto;
     display: grid;
     justify-content: center;
-    padding: 0%;
+    padding: 8%;
     
+}
+
+.flex-container {
+    border: 4px saddlebrown;
+    height: 50;
+    display: flex;
+    gap: 20px;
+    padding: 2px;
+    margin: 1px;
+    border: 60px;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.main-buttons {
+    border: 4px;
+    height: 48px;
+    flex: 1;
+    padding: 4px;
 }
