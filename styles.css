@@ -39,45 +39,9 @@
 .ordered-list {
     color: rgb(165, 42, 159);
     font-size: 20px;
-    font-weight: 600;
-    width: 100%;
-    display: grid;
-    justify-content: center;
+    font-weight: 600;/html-and-css/flexbox/
 }
 
-
- img {
-    height: 100%;
-    object-fit: contain;
-    
-}
-
-
-.main-buttons {
-  align-items: center;
-  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
-  border: 0;
-  border-radius: 8px;
-  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-  box-sizing: border-box;
-  color: #ffffff;
-  display: grid;
-  font-family: Phantomsans, sans-serif;
-  font-size: 20px;
-  justify-content: center;
-  line-height: 1em;
-  max-width: 100%;
-  min-width: 140px;
-  padding: 3px;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  cursor: pointer;
-  margin: auto;
-
-}
 
 .back-button {
     background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
@@ -137,15 +101,16 @@
     border: 60px;
     justify-content: center;
     flex-direction: column;
+    flex: 1 1 auto;
     
 
 }
 
-.main-buttons {
-    border: 4px;
-    height: 48px;
-    flex: 1;
-    padding: 4px;
+.btn-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button-64 {
@@ -170,7 +135,8 @@
     touch-action: manipulation;
     white-space: nowrap;
     cursor: pointer;
-  }
+    
+}
   
   .button-64:active,
   .button-64:hover {
@@ -197,9 +163,3 @@
     }
   }
 
-  .btn-container {
-    width: 100%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-  }
